@@ -1,0 +1,38 @@
+[
+  {
+    "ID": 1,
+    "Name": "Major Scale Modes"
+  },
+  {
+    "ID": 2,
+    "Name": "Melodic Minor Modes"
+  },
+  {
+    "ID": 3,
+    "Name": "Symmetric Scales"
+  },
+  {
+    "ID": 4,
+    "Name": "Pentatonic Scales"
+  },
+  {
+    "ID": 5,
+    "Name": "Blues Scales"
+  },
+  {
+    "ID": 6,
+    "Name": "Bepop Scales"
+  },
+  {
+    "ID": 7,
+    "Name": "Harmonic Scales"
+  },
+  {
+    "ID": 8,
+    "Name": "Exotic Scales"
+  },
+  {
+    "ID": 9,
+    "Name": "Miscellaneous"
+  }
+]

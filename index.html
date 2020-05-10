@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="scale"></div>
+</body>
+<script src='dist/scale.js'></script>
+<script>
+    const TEST_SCALE = {
+    "ID": 1,
+    "Name": "Ionian",
+    "Tone": "1.2.3.4.5.6.7",
+    "Value": "0.2.4.5.7.9.11",
+    "Type": 1,
+    "another_name": "A.K.A. Major"
+  }
+  ScaleJS.setDataProvider(id => {
+        console.log('>>>', name);
+        return TEST_SCALE;
+    });
+    ScaleJS.render(scale, TEST_SCALE)
+</script>
+</html>

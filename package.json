@@ -8,7 +8,6 @@
     "prebuild": "rimraf dist && mkdir dist",
     "build": "browserify scale.js -o dist/scale.js  -t [ babelify --presets [ es2015 ] ]",
     "postbuild": "uglifyjs dist/scale.js -o dist/scale.min.js",
-    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
